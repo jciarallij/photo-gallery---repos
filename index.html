@@ -12,6 +12,7 @@
 			height: 80px;
 			border: 4px solid #555;
 			margin: 0 10px 10px 0;
+			display: block;
 
 		}
 		.thumbnails img:hover{
@@ -19,8 +20,22 @@
 			cursor: pointer;
 		}
 
-		.gallery, .preview{
+		.thumbnails, .preview{
 			text-align: center;
+
+
+		}
+
+		.preview {
+
+		position: fixed;
+		top: 85px;
+		right: 400px;
+		/*float: none;*/
+		margin: auto;
+		/*position: relative;
+		width: 30%;
+		height: 0%;	*/
 		}
 
 	</style>
@@ -29,7 +44,8 @@
 <!-- Create a wrapper div. Everything on the page will inside of this.-->
 <div class="gallery">
 	<h2>Unit 1 - Day 1 - My first project</h2>
-	<!-- Let's mae a new line with a br tag -->
+<!-- 	<h3>Homework 2-29-2016 Assignment</h3>
+ -->	<!-- Let's mae a new line with a br tag -->
 	<br />
 
 	<div class="thumbnails">
